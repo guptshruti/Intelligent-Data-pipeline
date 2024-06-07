@@ -23,30 +23,30 @@ protobuf==3.12.0
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
 pycparser==2.20
-pytube3==9.6.4
-pytz==2020.1
-PyYAML==5.4
-requests==2.23.0
-rsa==4.7
-scipy==1.4.1
-six==1.14.0
-SoundFile==0.10.3.post1
-srt==3.0.0
-tqdm==4.46.0
-typing-extensions==3.7.4.2
-urllib3==1.26.5
-pytube3
-uuid~=1.30
-yaml~=0.1.7
-webrtcvad==2.0.10
-pandas==1.1.0
-azure-cognitiveservices-speech
-yoyo-migrations
-grpcio==1.37.0
-grpcio-tools==1.37.0
-grpc-interceptor==0.13.0
-pytest==6.2.3
-pytest-grpc==0.8.0
-wave
-protobuf==3.15.8
+# pytube3==9.6.4
+# pytz==2020.1
+# PyYAML==5.4
+# requests==2.23.0
+# rsa==4.7
+# scipy==1.4.1
+# six==1.14.0
+# SoundFile==0.10.3.post1
+# srt==3.0.0
+# tqdm==4.46.0
+# typing-extensions==3.7.4.2
+# urllib3==1.26.5
+# pytube3
+# uuid~=1.30
+# yaml~=0.1.7
+# webrtcvad==2.0.10
+# pandas==1.1.0
+# azure-cognitiveservices-speech
+# yoyo-migrations
+# grpcio==1.37.0
+# grpcio-tools==1.37.0
+# grpc-interceptor==0.13.0
+# pytest==6.2.3
+# pytest-grpc==0.8.0
+# wave
+# protobuf==3.15.8
 
