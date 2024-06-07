@@ -75,7 +75,7 @@ jobs:
            
             ### 
             pip install hdbscan
-            
+            pip install -r requirements.txt
           
             python --version ; pip --version ; pwd ; ls
       # - run:
@@ -119,6 +119,7 @@ jobs:
             pip install cython
             ### 
             pip install hdbscan
+            pip install -r requirements.txt
             python --version ; pip --version ; pwd ; ls
       - run:
           name: Generate Linting Report
