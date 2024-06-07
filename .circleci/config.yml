@@ -72,9 +72,11 @@ jobs:
             pip install python-dev-tools --user --upgrade
             pip install requests
             pip install cython
+           
             ### 
+            pip install hdbscan
             
-            pip install -r requirements.txt
+          
             python --version ; pip --version ; pwd ; ls
       # - run:
       #     name: Run Tests
@@ -116,7 +118,7 @@ jobs:
             pip install requests
             pip install cython
             ### 
-            pip install -r requirements.txt
+            pip install hdbscan
             python --version ; pip --version ; pwd ; ls
       - run:
           name: Generate Linting Report
