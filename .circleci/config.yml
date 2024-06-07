@@ -65,6 +65,15 @@ jobs:
             sudo apt-get install -y gcc-multilib g++-multilib
             sudo apt-get install libpq-dev
             pip install --upgrade pip
+            ### Added by Shruti on 20240607
+            pip install numpy
+            pip install wheel  #to install wheel added on 06-06 by vaibhav
+            pip install typing_extensions  # Install typing_extensions
+            pip install python-dev-tools --user --upgrade
+            pip install requests
+            pip install cython
+            ### 
+            
             pip install -r requirements.txt
             python --version ; pip --version ; pwd ; ls
       # - run:
@@ -99,6 +108,14 @@ jobs:
             sudo apt-get install -y gcc-multilib g++-multilib
             sudo apt-get install libpq-dev
             pip install --upgrade pip
+            ### Added by Shruti on 20240607
+            pip install numpy
+            pip install wheel  #to install wheel added on 06-06 by vaibhav
+            pip install typing_extensions  # Install typing_extensions
+            pip install python-dev-tools --user --upgrade
+            pip install requests
+            pip install cython
+            ### 
             pip install -r requirements.txt
             python --version ; pip --version ; pwd ; ls
       - run:
